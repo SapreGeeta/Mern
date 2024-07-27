@@ -1,0 +1,64 @@
+.form-container {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  section.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  @media (min-width: 992px) {
+    section.form {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  
+    .container {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .form-container {
+      width: 50%;
+      padding: 20px;
+    }
+  }
+
+
+  input.form-control::placeholder,
+textarea.form-control::placeholder {
+  color: black !important; /* Change to your desired color */
+  opacity: 1 !important;  /* Ensure full opacity */
+}
+
+input.form-control::-webkit-input-placeholder,
+textarea.form-control::-webkit-input-placeholder {
+  color: black !important;
+}
+
+input.form-control::-moz-placeholder,
+textarea.form-control::-moz-placeholder {
+  color: black !important;
+}
+
+input.form-control:-ms-input-placeholder,
+textarea.form-control:-ms-input-placeholder {
+  color: black !important;
+}
+
+input.form-control:-moz-placeholder,
+textarea.form-control:-moz-placeholder {
+  color: black !important;
+}
+
+
+/* Applying styles specifically to inputs with class form-control */
+input.form-control:focus, 
+textarea.form-control:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0); /* Custom shadow */
+  border-color: white; /* Optional: Change border color */
+}

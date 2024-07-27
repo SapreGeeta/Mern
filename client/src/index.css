@@ -1,0 +1,19 @@
+.text-center{
+    text-align: center;
+}
+
+body{
+    background-color: #f1f5f9 !important;
+}
+
+.text-decoration{
+    text-decoration: none !important;
+}
+
+input{
+    border:1px solid #000 !important;
+}
+
+::placeholder{
+    color: #7d7dea !important;
+}
